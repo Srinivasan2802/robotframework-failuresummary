@@ -44,7 +44,6 @@ playwright-report/
 *.swp
 *.swo
 
-*.txt
 
 # Robot Framework Source & Configuration Files
 *.robot
