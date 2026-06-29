@@ -22,3 +22,4 @@ Install the stable release directly from PyPI:
 ```bash
 pip install robotframework-failuresummary
 
+<img width="1584" height="966" alt="image" src="https://github.com/user-attachments/assets/c3391ca5-eaaa-4afc-b9c8-e520907b3726" />
