@@ -19,14 +19,17 @@ Tired of digging through massive console outputs or deeply nested standard log f
 
 Install the stable release directly from PyPI:
 
+
+
+https://github.com/user-attachments/assets/adb1abe2-7d5b-4449-919a-326bd23b4706
+
+
 ```bash
 pip install robotframework-failuresummary
 
+```
 
 
-
-
-https://github.com/user-attachments/assets/04d8f074-9e34-4442-b2bd-6d47d2ec9353
 
 
 
