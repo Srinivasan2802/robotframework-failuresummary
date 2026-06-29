@@ -1,0 +1,52 @@
+# Isolated Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python caching and compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution, Packaging, and Build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Robot Framework Local Test Outputs (Prevents committing your test runs)
+output.xml
+log.html
+report.html
+failure_summary.html
+selenium-screenshot-*.png
+browser/
+screenshots/
+playwright-report/
+
+# IDE/Editor specific configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.txt
+
+# Robot Framework Source & Configuration Files
+*.robot
+*.resource
+*.args

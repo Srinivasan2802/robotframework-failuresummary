@@ -1,0 +1,3 @@
+recursive-include src/RobotFailureSummary/templates *.html
+recursive-include src/RobotFailureSummary/js *.js
+global-exclude __pycache__ *.py[cod]
