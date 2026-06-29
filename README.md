@@ -15,13 +15,16 @@ Tired of digging through massive console outputs or deeply nested standard log f
 
 ---
 
+https://github.com/user-attachments/assets/adb1abe2-7d5b-4449-919a-326bd23b4706
+
+
 ## Installation
 
 Install the stable release directly from PyPI:
 
 
 
-https://github.com/user-attachments/assets/adb1abe2-7d5b-4449-919a-326bd23b4706
+
 
 
 ```bash
