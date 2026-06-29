@@ -24,6 +24,10 @@ pip install robotframework-failuresummary
 
 
 
-https://github.com/user-attachments/assets/debdd443-1918-4c04-b2b7-16d6593e7063
+
+
+https://github.com/user-attachments/assets/04d8f074-9e34-4442-b2bd-6d47d2ec9353
+
+
 
 
