@@ -12,7 +12,7 @@ Tired of digging through massive console outputs or deeply nested standard log f
 * **Deep Linking:** Jump straight to critical failure points, trace logs, and system error strings.
 * **Interactive Dashboard:** Light, searchable, and responsive UI built directly into a standalone HTML file.
 * **Zero Overhead:** Runs passively during your test execution hook layers without slowing down execution.
-
+* **Library Agnostic:** Works out of the box with both SeleniumLibrary and Browser Library.
 ---
 
 https://github.com/user-attachments/assets/adb1abe2-7d5b-4449-919a-326bd23b4706
