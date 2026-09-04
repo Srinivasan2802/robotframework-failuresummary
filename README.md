@@ -78,7 +78,7 @@ rf-failure-summary tests
 This is off by default — leave it unset for normal use, since it writes a log file on every run.
 
 ## Changelog
-**2.0.1** - Updated readme
+**2.0.0.1** - Updated readme
 
 **2.0.0** — Added `rf-failure-summary` base 1.0.0 features + CLI with pabot support, included line-number resolution across multi-file suites, responsive UI with failure seperation based on label.
 
