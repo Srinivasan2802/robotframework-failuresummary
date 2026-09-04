@@ -16,10 +16,11 @@ For parallel runs: `pip install robotframework-pabot`
 
 ### Plain robot (single process)
 
-```bash
-rf-failure-summary tests
-```
+these tests can be anything like relative  path to ur .robot file or u can change the cd and run it  
 
+```bash
+rf-failure-summary tests 
+```
 or, if you don't want the wrapper and just want plain `robot` directly (this also works fine, no pabot involved):
 
 ```bash
