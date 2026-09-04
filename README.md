@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/b70697f4-c7aa-47f9-b331-a7ec9ecc5002
+
 # Robot Framework Failure Summary
 
 A Robot Framework listener that mutes noisy engine logs (Selenium/Browser internals) and generates a clean, interactive **failure summary report** — with deep links to the failing keyword in `log.html` and IDE-ready `file:line` locations you can paste into VS Code (`Ctrl+P`) or PyCharm (`Ctrl+Shift+N`).
