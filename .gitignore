@@ -50,3 +50,23 @@ playwright-report/
 *.robot
 *.resource
 *.args
+
+
+# Robot Framework run artifacts
+results/
+output.xml
+log.html
+report.html
+listener_debug.log
+.pabotsuitenames
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+src/RobotFailureSummary.zip
+
+# Python
+__pycache__/
+*.pyc
+robotframework.venv/
