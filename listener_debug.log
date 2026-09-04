@@ -1,0 +1,1537 @@
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: _keyword_locations has 0 entries ===
+   -> 'BuiltIn.Fail' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:25
+   -> 'BuiltIn.Should Be True' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 3 Root Cause Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 2 Nested Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 1 Custom Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:30
+   -> 'SeleniumLibrary.Open Browser' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:35
+   -> 'BuiltIn.Sleep' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:42
+   -> 'SeleniumLibrary.Open Browser' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+=== CLASS-BASED LISTENER INITIALIZED ===
+=== GENERATING SUMMARY: _keyword_locations has 0 entries ===
+   -> 'BuiltIn.Fail' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:25
+   -> 'BuiltIn.Should Be True' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 3 Root Cause Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 2 Nested Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 1 Custom Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:30
+   -> 'SeleniumLibrary.Open Browser' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:35
+   -> 'BuiltIn.Sleep' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:42
+   -> 'SeleniumLibrary.Open Browser' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+=== CLASS-BASED LISTENER INITIALIZED ===
+=== GENERATING SUMMARY: _keyword_locations has 0 entries ===
+   -> 'BuiltIn.Fail' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:25
+   -> 'BuiltIn.Should Be True' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 3 Root Cause Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 2 Nested Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> 'Level 1 Custom Keyword' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:30
+   -> 'SeleniumLibrary.Open Browser' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:35
+   -> 'BuiltIn.Sleep' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:42
+   -> 'SeleniumLibrary.Open Browser' NOT found in _keyword_locations.
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+Built keyword map with 0 entries
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:25
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:30
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:35
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:42
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Mapped keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped keyword 'Level 3 Root Cause Keyword' -> line 15
+Built keyword map with 3 entries
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:25
+   -> Returning: sample.robot:?
+   -> Found 'Level 3 Root Cause Keyword' in parsed map: line 15
+   -> Returning: sample.robot:15
+   -> Found 'Level 2 Nested Keyword' in parsed map: line 11
+   -> Returning: sample.robot:11
+   -> Found 'Level 1 Custom Keyword' in parsed map: line 7
+   -> Returning: sample.robot:7
+   -> Returning: sample.robot:30
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:35
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:42
+   -> Returning: sample.robot:?
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+Built keyword map with 3 entries
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 7
+   -> Returning: sample.robot:7
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+Built keyword map with 6 entries
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 7
+   -> Returning: sample.robot:7
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+Built keyword map with 6 entries
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 7
+   -> Returning: sample.robot:7
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+Built keyword map with 3 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 2 Nested Keyword', 'Level 3 Root Cause Keyword']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+  Searching for: 'BuiltIn.Fail' in test 'Scenario B: Standard Flat Layer Failure'
+  Trying exact match: 'Scenario B: Standard Flat Layer Failure::BuiltIn.Fail'
+  Trying stripped prefix: 'Scenario B: Standard Flat Layer Failure::Fail'
+  Trying custom keyword lookup: 'BuiltIn.Fail'
+  Trying custom keyword with stripped prefix: 'Fail'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'BuiltIn.Should Be True' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::BuiltIn.Should Be True'
+  Trying stripped prefix: 'Scenario C: Deeply Nested Hierarchy Failure::Should Be True'
+  Trying custom keyword lookup: 'BuiltIn.Should Be True'
+  Trying custom keyword with stripped prefix: 'Should Be True'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 3 Root Cause Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 3 Root Cause Keyword'
+  Trying custom keyword lookup: 'Level 3 Root Cause Keyword'
+    -> Found custom keyword -> line 15
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 2 Nested Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 2 Nested Keyword'
+  Trying custom keyword lookup: 'Level 2 Nested Keyword'
+    -> Found custom keyword -> line 11
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 1 Custom Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword'
+  Trying custom keyword lookup: 'Level 1 Custom Keyword'
+    -> Found custom keyword -> line 7
+   -> Found in parsed map: line 7
+   -> Returning: sample.robot:7
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario D: Selenium Element Not Found Error'
+  Trying exact match: 'Scenario D: Selenium Element Not Found Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario D: Selenium Element Not Found Error::Open Browser'
+  Trying custom keyword lookup: 'SeleniumLibrary.Open Browser'
+  Trying custom keyword with stripped prefix: 'Open Browser'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+  Searching for: 'BuiltIn.Sleep' in test 'Scenario E: Explicit Test Case Timeout Error'
+  Trying exact match: 'Scenario E: Explicit Test Case Timeout Error::BuiltIn.Sleep'
+  Trying stripped prefix: 'Scenario E: Explicit Test Case Timeout Error::Sleep'
+  Trying custom keyword lookup: 'BuiltIn.Sleep'
+  Trying custom keyword with stripped prefix: 'Sleep'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario F: Selenium Implicit Wait Timeout Error'
+  Trying exact match: 'Scenario F: Selenium Implicit Wait Timeout Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser'
+  Trying custom keyword lookup: 'SeleniumLibrary.Open Browser'
+  Trying custom keyword with stripped prefix: 'Open Browser'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+Built keyword map with 3 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 2 Nested Keyword', 'Level 3 Root Cause Keyword']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+  Searching for: 'BuiltIn.Fail' in test 'Scenario B: Standard Flat Layer Failure'
+  Trying exact match: 'Scenario B: Standard Flat Layer Failure::BuiltIn.Fail'
+  Trying stripped prefix: 'Scenario B: Standard Flat Layer Failure::Fail'
+  Trying custom keyword lookup: 'BuiltIn.Fail'
+  Trying custom keyword with stripped prefix: 'Fail'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'BuiltIn.Should Be True' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::BuiltIn.Should Be True'
+  Trying stripped prefix: 'Scenario C: Deeply Nested Hierarchy Failure::Should Be True'
+  Trying custom keyword lookup: 'BuiltIn.Should Be True'
+  Trying custom keyword with stripped prefix: 'Should Be True'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 3 Root Cause Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 3 Root Cause Keyword'
+  Trying custom keyword lookup: 'Level 3 Root Cause Keyword'
+    -> Found custom keyword -> line 15
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 2 Nested Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 2 Nested Keyword'
+  Trying custom keyword lookup: 'Level 2 Nested Keyword'
+    -> Found custom keyword -> line 11
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 1 Custom Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword'
+  Trying custom keyword lookup: 'Level 1 Custom Keyword'
+    -> Found custom keyword -> line 7
+   -> Found in parsed map: line 7
+   -> Returning: sample.robot:7
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario D: Selenium Element Not Found Error'
+  Trying exact match: 'Scenario D: Selenium Element Not Found Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario D: Selenium Element Not Found Error::Open Browser'
+  Trying custom keyword lookup: 'SeleniumLibrary.Open Browser'
+  Trying custom keyword with stripped prefix: 'Open Browser'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+  Searching for: 'BuiltIn.Sleep' in test 'Scenario E: Explicit Test Case Timeout Error'
+  Trying exact match: 'Scenario E: Explicit Test Case Timeout Error::BuiltIn.Sleep'
+  Trying stripped prefix: 'Scenario E: Explicit Test Case Timeout Error::Sleep'
+  Trying custom keyword lookup: 'BuiltIn.Sleep'
+  Trying custom keyword with stripped prefix: 'Sleep'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario F: Selenium Implicit Wait Timeout Error'
+  Trying exact match: 'Scenario F: Selenium Implicit Wait Timeout Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser'
+  Trying custom keyword lookup: 'SeleniumLibrary.Open Browser'
+  Trying custom keyword with stripped prefix: 'Open Browser'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+Built keyword map with 3 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 2 Nested Keyword', 'Level 3 Root Cause Keyword']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+  Searching for: 'BuiltIn.Fail' in test 'Scenario B: Standard Flat Layer Failure'
+  Trying exact match: 'Scenario B: Standard Flat Layer Failure::BuiltIn.Fail'
+  Trying stripped prefix: 'Scenario B: Standard Flat Layer Failure::Fail'
+  Trying custom keyword lookup: 'BuiltIn.Fail'
+  Trying custom keyword with stripped prefix: 'Fail'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'BuiltIn.Should Be True' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::BuiltIn.Should Be True'
+  Trying stripped prefix: 'Scenario C: Deeply Nested Hierarchy Failure::Should Be True'
+  Trying custom keyword lookup: 'BuiltIn.Should Be True'
+  Trying custom keyword with stripped prefix: 'Should Be True'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 3 Root Cause Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 3 Root Cause Keyword'
+  Trying custom keyword lookup: 'Level 3 Root Cause Keyword'
+    -> Found custom keyword -> line 15
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 2 Nested Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 2 Nested Keyword'
+  Trying custom keyword lookup: 'Level 2 Nested Keyword'
+    -> Found custom keyword -> line 11
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 1 Custom Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword'
+  Trying custom keyword lookup: 'Level 1 Custom Keyword'
+    -> Found custom keyword -> line 7
+   -> Found in parsed map: line 7
+   -> Returning: sample.robot:7
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario D: Selenium Element Not Found Error'
+  Trying exact match: 'Scenario D: Selenium Element Not Found Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario D: Selenium Element Not Found Error::Open Browser'
+  Trying custom keyword lookup: 'SeleniumLibrary.Open Browser'
+  Trying custom keyword with stripped prefix: 'Open Browser'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+  Searching for: 'BuiltIn.Sleep' in test 'Scenario E: Explicit Test Case Timeout Error'
+  Trying exact match: 'Scenario E: Explicit Test Case Timeout Error::BuiltIn.Sleep'
+  Trying stripped prefix: 'Scenario E: Explicit Test Case Timeout Error::Sleep'
+  Trying custom keyword lookup: 'BuiltIn.Sleep'
+  Trying custom keyword with stripped prefix: 'Sleep'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario F: Selenium Implicit Wait Timeout Error'
+  Trying exact match: 'Scenario F: Selenium Implicit Wait Timeout Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser'
+  Trying custom keyword lookup: 'SeleniumLibrary.Open Browser'
+  Trying custom keyword with stripped prefix: 'Open Browser'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 16 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 2 Nested Keyword', 'Level 3 Root Cause Keyword', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+  Searching for: 'BuiltIn.Fail' in test 'Scenario B: Standard Flat Layer Failure'
+  Trying exact match: 'Scenario B: Standard Flat Layer Failure::BuiltIn.Fail'
+  Trying stripped prefix: 'Scenario B: Standard Flat Layer Failure::Fail'
+    -> Found with stripped prefix -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'BuiltIn.Should Be True' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::BuiltIn.Should Be True'
+  Trying stripped prefix: 'Scenario C: Deeply Nested Hierarchy Failure::Should Be True'
+  Trying custom keyword lookup: 'BuiltIn.Should Be True'
+  Trying custom keyword with stripped prefix: 'Should Be True'
+    -> NOT found
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 3 Root Cause Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 3 Root Cause Keyword'
+  Trying custom keyword lookup: 'Level 3 Root Cause Keyword'
+    -> Found custom keyword -> line 15
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 2 Nested Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 2 Nested Keyword'
+  Trying custom keyword lookup: 'Level 2 Nested Keyword'
+    -> Found custom keyword -> line 11
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+  Searching for: 'Level 1 Custom Keyword' in test 'Scenario C: Deeply Nested Hierarchy Failure'
+  Trying exact match: 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword'
+    -> Found exact match -> line 33
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario D: Selenium Element Not Found Error'
+  Trying exact match: 'Scenario D: Selenium Element Not Found Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario D: Selenium Element Not Found Error::Open Browser'
+    -> Found with stripped prefix -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+  Searching for: 'BuiltIn.Sleep' in test 'Scenario E: Explicit Test Case Timeout Error'
+  Trying exact match: 'Scenario E: Explicit Test Case Timeout Error::BuiltIn.Sleep'
+  Trying stripped prefix: 'Scenario E: Explicit Test Case Timeout Error::Sleep'
+    -> Found with stripped prefix -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+  Searching for: 'SeleniumLibrary.Open Browser' in test 'Scenario F: Selenium Implicit Wait Timeout Error'
+  Trying exact match: 'Scenario F: Selenium Implicit Wait Timeout Error::SeleniumLibrary.Open Browser'
+  Trying stripped prefix: 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser'
+    -> Found with stripped prefix -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+    Parsing body of keyword 'Level 1 Custom Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 8
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 2 Nested Keyword' -> line 9
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+    Parsing body of keyword 'Level 2 Nested Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 12
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 3 Root Cause Keyword' -> line 13
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+    Parsing body of keyword 'Level 3 Root Cause Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 16
+        Item 1: KeywordCall
+          Mapped keyword call 'Should Be True' -> line 17
+        Item 2: EmptyLine
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 22 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 1 Custom Keyword::Log', 'Level 1 Custom Keyword::Level 2 Nested Keyword', 'Level 2 Nested Keyword', 'Level 2 Nested Keyword::Log', 'Level 2 Nested Keyword::Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword::Log', 'Level 3 Root Cause Keyword::Should Be True', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+   -> Found with stripped prefix: 'Fail' -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+   -> Found with stripped prefix: 'Open Browser' -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+   -> Found with stripped prefix: 'Sleep' -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Found with stripped prefix: 'Open Browser' -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+    Parsing body of keyword 'Level 1 Custom Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 8
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 2 Nested Keyword' -> line 9
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+    Parsing body of keyword 'Level 2 Nested Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 12
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 3 Root Cause Keyword' -> line 13
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+    Parsing body of keyword 'Level 3 Root Cause Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 16
+        Item 1: KeywordCall
+          Mapped keyword call 'Should Be True' -> line 17
+        Item 2: EmptyLine
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 22 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 1 Custom Keyword::Log', 'Level 1 Custom Keyword::Level 2 Nested Keyword', 'Level 2 Nested Keyword', 'Level 2 Nested Keyword::Log', 'Level 2 Nested Keyword::Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword::Log', 'Level 3 Root Cause Keyword::Should Be True', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure
+   -> Found with stripped prefix: 'Fail' -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error
+   -> Found with stripped prefix: 'Open Browser' -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error
+   -> Found with stripped prefix: 'Sleep' -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Found with stripped prefix: 'Open Browser' -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+    Parsing body of keyword 'Level 1 Custom Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 8
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 2 Nested Keyword' -> line 9
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+    Parsing body of keyword 'Level 2 Nested Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 12
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 3 Root Cause Keyword' -> line 13
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+    Parsing body of keyword 'Level 3 Root Cause Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 16
+        Item 1: KeywordCall
+          Mapped keyword call 'Should Be True' -> line 17
+        Item 2: EmptyLine
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 22 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 1 Custom Keyword::Log', 'Level 1 Custom Keyword::Level 2 Nested Keyword', 'Level 2 Nested Keyword', 'Level 2 Nested Keyword::Log', 'Level 2 Nested Keyword::Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword::Log', 'Level 3 Root Cause Keyword::Should Be True', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure, parents=None
+   -> Found with stripped prefix in context 'Scenario B: Standard Flat Layer Failure' -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure, parents=None
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=None
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=None
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=None
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=None
+   -> Found exact match in context 'Scenario C: Deeply Nested Hierarchy Failure' -> line 33
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure, parents=None
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error, parents=None
+   -> Found with stripped prefix in context 'Scenario D: Selenium Element Not Found Error' -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error, parents=None
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error, parents=None
+   -> Found with stripped prefix in context 'Scenario E: Explicit Test Case Timeout Error' -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error, parents=None
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=None
+   -> Found with stripped prefix in context 'Scenario F: Selenium Implicit Wait Timeout Error' -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=None
+   -> Returning: sample.robot:48
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+    Parsing body of keyword 'Level 1 Custom Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 8
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 2 Nested Keyword' -> line 9
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+    Parsing body of keyword 'Level 2 Nested Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 12
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 3 Root Cause Keyword' -> line 13
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+    Parsing body of keyword 'Level 3 Root Cause Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 16
+        Item 1: KeywordCall
+          Mapped keyword call 'Should Be True' -> line 17
+        Item 2: EmptyLine
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 22 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 1 Custom Keyword::Log', 'Level 1 Custom Keyword::Level 2 Nested Keyword', 'Level 2 Nested Keyword', 'Level 2 Nested Keyword::Log', 'Level 2 Nested Keyword::Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword::Log', 'Level 3 Root Cause Keyword::Should Be True', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure, parents=['BuiltIn.Fail']
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure, parents=[]
+   -> Found with stripped prefix in context 'Scenario B: Standard Flat Layer Failure' -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 1 Custom Keyword', 'Level 2 Nested Keyword', 'Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Returning: sample.robot:30
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 2 Nested Keyword', 'Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Found exact match in context 'Scenario C: Deeply Nested Hierarchy Failure' -> line 33
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['BuiltIn.Should Be True']
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=[]
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error, parents=['SeleniumLibrary.Open Browser']
+   -> Returning: sample.robot:35
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario D: Selenium Element Not Found Error' -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error, parents=['BuiltIn.Sleep']
+   -> Returning: sample.robot:42
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario E: Explicit Test Case Timeout Error' -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=['SeleniumLibrary.Open Browser']
+   -> Returning: sample.robot:48
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario F: Selenium Implicit Wait Timeout Error' -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+    Parsing body of keyword 'Level 1 Custom Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 8
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 2 Nested Keyword' -> line 9
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+    Parsing body of keyword 'Level 2 Nested Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 12
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 3 Root Cause Keyword' -> line 13
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+    Parsing body of keyword 'Level 3 Root Cause Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 16
+        Item 1: KeywordCall
+          Mapped keyword call 'Should Be True' -> line 17
+        Item 2: EmptyLine
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 22 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 1 Custom Keyword::Log', 'Level 1 Custom Keyword::Level 2 Nested Keyword', 'Level 2 Nested Keyword', 'Level 2 Nested Keyword::Log', 'Level 2 Nested Keyword::Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword::Log', 'Level 3 Root Cause Keyword::Should Be True', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure, parents=['BuiltIn.Fail']
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure, parents=[]
+   -> Found with stripped prefix in context 'Scenario B: Standard Flat Layer Failure' -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 1 Custom Keyword', 'Level 2 Nested Keyword', 'Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Returning: sample.robot:30
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 2 Nested Keyword', 'Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Found exact match in context 'Scenario C: Deeply Nested Hierarchy Failure' -> line 33
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['BuiltIn.Should Be True']
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=[]
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error, parents=['SeleniumLibrary.Open Browser']
+   -> Returning: sample.robot:35
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario D: Selenium Element Not Found Error' -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error, parents=['BuiltIn.Sleep']
+   -> Returning: sample.robot:42
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario E: Explicit Test Case Timeout Error' -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=['SeleniumLibrary.Open Browser']
+   -> Returning: sample.robot:48
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario F: Selenium Implicit Wait Timeout Error' -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+    Parsing body of keyword 'Level 1 Custom Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 8
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 2 Nested Keyword' -> line 9
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+    Parsing body of keyword 'Level 2 Nested Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 12
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 3 Root Cause Keyword' -> line 13
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+    Parsing body of keyword 'Level 3 Root Cause Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 16
+        Item 1: KeywordCall
+          Mapped keyword call 'Should Be True' -> line 17
+        Item 2: EmptyLine
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 22 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 1 Custom Keyword::Log', 'Level 1 Custom Keyword::Level 2 Nested Keyword', 'Level 2 Nested Keyword', 'Level 2 Nested Keyword::Log', 'Level 2 Nested Keyword::Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword::Log', 'Level 3 Root Cause Keyword::Should Be True', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure, parents=['BuiltIn.Fail']
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure, parents=[]
+   -> Found with stripped prefix in context 'Scenario B: Standard Flat Layer Failure' -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 1 Custom Keyword', 'Level 2 Nested Keyword', 'Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Returning: sample.robot:30
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 2 Nested Keyword', 'Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Found exact match in context 'Scenario C: Deeply Nested Hierarchy Failure' -> line 33
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 3 Root Cause Keyword', 'BuiltIn.Should Be True']
+   -> Found in parsed map: line 11
+   -> Returning: sample.robot:11
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['BuiltIn.Should Be True']
+   -> Found in parsed map: line 15
+   -> Returning: sample.robot:15
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=[]
+   -> NOT found in parsed map
+   -> Returning: sample.robot:?
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error, parents=['SeleniumLibrary.Open Browser']
+   -> Returning: sample.robot:35
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario D: Selenium Element Not Found Error' -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error, parents=['BuiltIn.Sleep']
+   -> Returning: sample.robot:42
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario E: Explicit Test Case Timeout Error' -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=['SeleniumLibrary.Open Browser']
+   -> Returning: sample.robot:48
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario F: Selenium Implicit Wait Timeout Error' -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+=== LISTENER MODULE LOADED ===
+start_suite called
+start_test called: Scenario A: Successful Step Execution
+start_test called: Scenario B: Standard Flat Layer Failure
+start_test called: Scenario C: Deeply Nested Hierarchy Failure
+start_test called: Scenario D: Selenium Element Not Found Error
+start_test called: Scenario E: Explicit Test Case Timeout Error
+start_test called: Scenario F: Selenium Implicit Wait Timeout Error
+=== GENERATING SUMMARY: keyword map has 0 entries ===
+Parsing C:\Users\srini\robotframework-failuresummary\sample.robot to build keyword line map...
+  Section 0: SettingSection
+  Section 1: KeywordSection
+  Mapped custom keyword 'Level 1 Custom Keyword' -> line 7
+    Parsing body of keyword 'Level 1 Custom Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 8
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 2 Nested Keyword' -> line 9
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 2 Nested Keyword' -> line 11
+    Parsing body of keyword 'Level 2 Nested Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 12
+        Item 1: KeywordCall
+          Mapped keyword call 'Level 3 Root Cause Keyword' -> line 13
+        Item 2: EmptyLine
+  Mapped custom keyword 'Level 3 Root Cause Keyword' -> line 15
+    Parsing body of keyword 'Level 3 Root Cause Keyword'...
+        Item 0: KeywordCall
+          Mapped keyword call 'Log' -> line 16
+        Item 1: KeywordCall
+          Mapped keyword call 'Should Be True' -> line 17
+        Item 2: EmptyLine
+  Section 2: TestCaseSection
+  Found test case: 'Scenario A: Successful Step Execution'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 22
+    Item 2: KeywordCall
+      Mapped keyword call 'Should Be Equal As Strings' -> line 23
+    Item 3: EmptyLine
+  Found test case: 'Scenario B: Standard Flat Layer Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 27
+    Item 2: KeywordCall
+      Mapped keyword call 'Fail' -> line 28
+    Item 3: EmptyLine
+  Found test case: 'Scenario C: Deeply Nested Hierarchy Failure'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Log' -> line 32
+    Item 2: KeywordCall
+      Mapped keyword call 'Level 1 Custom Keyword' -> line 33
+    Item 3: EmptyLine
+  Found test case: 'Scenario D: Selenium Element Not Found Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 37
+    Item 2: Comment
+    Item 3: KeywordCall
+      Mapped keyword call 'Click Element' -> line 39
+    Item 4: Teardown
+    Item 5: EmptyLine
+  Found test case: 'Scenario E: Explicit Test Case Timeout Error'
+    Item 0: Documentation
+    Item 1: Timeout
+    Item 2: KeywordCall
+      Mapped keyword call 'Log' -> line 45
+    Item 3: KeywordCall
+      Mapped keyword call 'Sleep' -> line 46
+    Item 4: EmptyLine
+  Found test case: 'Scenario F: Selenium Implicit Wait Timeout Error'
+    Item 0: Documentation
+    Item 1: KeywordCall
+      Mapped keyword call 'Open Browser' -> line 50
+    Item 2: KeywordCall
+      Mapped keyword call 'Set Selenium Implicit Wait' -> line 51
+    Item 3: Comment
+    Item 4: KeywordCall
+      Mapped keyword call 'Wait Until Element Is Visible' -> line 53
+    Item 5: Teardown
+Built keyword map with 22 entries
+Map contents: ['Level 1 Custom Keyword', 'Level 1 Custom Keyword::Log', 'Level 1 Custom Keyword::Level 2 Nested Keyword', 'Level 2 Nested Keyword', 'Level 2 Nested Keyword::Log', 'Level 2 Nested Keyword::Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword', 'Level 3 Root Cause Keyword::Log', 'Level 3 Root Cause Keyword::Should Be True', 'Scenario A: Successful Step Execution::Log', 'Scenario A: Successful Step Execution::Should Be Equal As Strings', 'Scenario B: Standard Flat Layer Failure::Log', 'Scenario B: Standard Flat Layer Failure::Fail', 'Scenario C: Deeply Nested Hierarchy Failure::Log', 'Scenario C: Deeply Nested Hierarchy Failure::Level 1 Custom Keyword', 'Scenario D: Selenium Element Not Found Error::Open Browser', 'Scenario D: Selenium Element Not Found Error::Click Element', 'Scenario E: Explicit Test Case Timeout Error::Log', 'Scenario E: Explicit Test Case Timeout Error::Sleep', 'Scenario F: Selenium Implicit Wait Timeout Error::Open Browser', 'Scenario F: Selenium Implicit Wait Timeout Error::Set Selenium Implicit Wait', 'Scenario F: Selenium Implicit Wait Timeout Error::Wait Until Element Is Visible']
+get_relative_location: name=BuiltIn.Fail, lineno=None, test=Scenario B: Standard Flat Layer Failure, parents=[]
+   -> Found with stripped prefix in context 'Scenario B: Standard Flat Layer Failure' -> line 28
+   -> Found in parsed map: line 28
+   -> Returning: sample.robot:28
+get_relative_location: name=Scenario B: Standard Flat Layer Failure, lineno=25, test=Scenario B: Standard Flat Layer Failure, parents=[]
+   -> Returning: sample.robot:25
+get_relative_location: name=BuiltIn.Should Be True, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 3 Root Cause Keyword', 'Level 2 Nested Keyword', 'Level 1 Custom Keyword']
+   -> Found with stripped prefix in context 'Level 3 Root Cause Keyword' -> line 17
+   -> Found in parsed map: line 17
+   -> Returning: sample.robot:17
+get_relative_location: name=Level 3 Root Cause Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 2 Nested Keyword', 'Level 1 Custom Keyword']
+   -> Found exact match in context 'Level 2 Nested Keyword' -> line 13
+   -> Found in parsed map: line 13
+   -> Returning: sample.robot:13
+get_relative_location: name=Level 2 Nested Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=['Level 1 Custom Keyword']
+   -> Found exact match in context 'Level 1 Custom Keyword' -> line 9
+   -> Found in parsed map: line 9
+   -> Returning: sample.robot:9
+get_relative_location: name=Level 1 Custom Keyword, lineno=None, test=Scenario C: Deeply Nested Hierarchy Failure, parents=[]
+   -> Found exact match in context 'Scenario C: Deeply Nested Hierarchy Failure' -> line 33
+   -> Found in parsed map: line 33
+   -> Returning: sample.robot:33
+get_relative_location: name=Scenario C: Deeply Nested Hierarchy Failure, lineno=30, test=Scenario C: Deeply Nested Hierarchy Failure, parents=[]
+   -> Returning: sample.robot:30
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario D: Selenium Element Not Found Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario D: Selenium Element Not Found Error' -> line 37
+   -> Found in parsed map: line 37
+   -> Returning: sample.robot:37
+get_relative_location: name=Scenario D: Selenium Element Not Found Error, lineno=35, test=Scenario D: Selenium Element Not Found Error, parents=[]
+   -> Returning: sample.robot:35
+get_relative_location: name=BuiltIn.Sleep, lineno=None, test=Scenario E: Explicit Test Case Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario E: Explicit Test Case Timeout Error' -> line 46
+   -> Found in parsed map: line 46
+   -> Returning: sample.robot:46
+get_relative_location: name=Scenario E: Explicit Test Case Timeout Error, lineno=42, test=Scenario E: Explicit Test Case Timeout Error, parents=[]
+   -> Returning: sample.robot:42
+get_relative_location: name=SeleniumLibrary.Open Browser, lineno=None, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=[]
+   -> Found with stripped prefix in context 'Scenario F: Selenium Implicit Wait Timeout Error' -> line 50
+   -> Found in parsed map: line 50
+   -> Returning: sample.robot:50
+get_relative_location: name=Scenario F: Selenium Implicit Wait Timeout Error, lineno=48, test=Scenario F: Selenium Implicit Wait Timeout Error, parents=[]
+   -> Returning: sample.robot:48

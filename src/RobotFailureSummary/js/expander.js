@@ -1,3 +1,23 @@
+// Filter chip handling: shows/hides .failure-card elements by data-type.
+// Runs once the page loads; independent of openLogTab below.
+document.addEventListener('DOMContentLoaded', function () {
+    var chips = document.querySelectorAll('.chip');
+    var cards = document.querySelectorAll('.failure-card');
+
+    chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+            chips.forEach(function (c) { c.classList.remove('active'); });
+            chip.classList.add('active');
+
+            var type = chip.getAttribute('data-type');
+            cards.forEach(function (card) {
+                var show = (type === 'all' || card.getAttribute('data-type') === type);
+                card.classList.toggle('hidden', !show);
+            });
+        });
+    });
+});
+
 function openLogTab(url) {
     var tab = window.open('', 'rf_log_viewer');
     if (tab) {

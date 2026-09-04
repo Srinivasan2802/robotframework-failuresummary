@@ -4,24 +4,215 @@
     <meta charset="UTF-8">
     <title>Failure Summary</title>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a2e; color: #eee; }
-        h2 { color: #e94560; }
-        .failure-card { background: #16213e; border-left: 4px solid #e94560; padding: 12px 16px; margin: 10px 0; border-radius: 4px; }
-        .test-name { font-weight: bold; color: #0f3460; background: #e94560; padding: 2px 8px; border-radius: 3px; font-size: 12px; }
-        .path { margin: 8px 0; color: #aaa; font-size: 13px; word-break: break-all; }
-        .path span { color: #fff; }
-        a.jump-btn { display: inline-block; margin-top: 6px; background: #e94560; color: white; padding: 4px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; cursor: pointer; }
-        a.jump-btn:hover { background: #c73652; }
-        .detail-block { margin-top: 10px; padding: 8px 12px; background: #0f1b33; border-radius: 4px; font-size: 13px; border: 1px solid #2a2a4a; }
-        .detail-label { color: #e94560; font-weight: bold; font-size: 11px; letter-spacing: 0.8px; text-transform: uppercase; margin-bottom: 4px; }
-        .fail-text { color: #ffcdd2; font-family: monospace; white-space: pre-wrap; word-break: break-all; }
-        .exception-text { color: #ff6b6b; font-family: monospace; white-space: pre-wrap; word-break: break-all; margin: 2px 0; }
+        :root{
+            --bg: #0f1115;
+            --surface: #161922;
+            --surface-2: #1c202b;
+            --border: #262b36;
+            --text: #e6e8eb;
+            --muted: #8b92a0;
+            --faint: #565d6b;
+            --assertion: #f0555a;
+            --assertion-dim: rgba(240,85,90,0.12);
+            --timeout: #e0a93e;
+            --timeout-dim: rgba(224,169,62,0.12);
+            --browser: #6ea8fe;
+            --browser-dim: rgba(110,168,254,0.12);
+            --other: #b58af0;
+            --other-dim: rgba(181,138,240,0.12);
+            --ok: #3fb98a;
+        }
+        *{box-sizing:border-box;}
+        body{
+            margin:0;
+            font-family:-apple-system, "Segoe UI", Arial, sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            font-size:14px;
+        }
+        .wrap{max-width:1200px; margin:0 auto; padding:28px 32px 70px;}
+
+        /* Large desktop / wide monitors, low zoom */
+        @media (min-width: 1600px){
+            .wrap{max-width:1440px; padding:32px 48px 80px;}
+            body{font-size:15px;}
+        }
+
+        /* Standard laptop/desktop */
+        @media (max-width: 1200px){
+            .wrap{max-width:100%; padding:24px 24px 60px;}
+        }
+
+        /* Tablet */
+        @media (max-width: 900px){
+            .wrap{padding:20px 16px 50px;}
+            .bento{grid-template-columns: 1fr 1fr;}
+        }
+
+        /* Mobile / narrow viewport / high browser zoom */
+        @media (max-width: 600px){
+            .wrap{padding:16px 12px 40px;}
+            body{font-size:13px;}
+            .bento{grid-template-columns: 1fr 1fr; gap:8px;}
+            .tile{padding:10px 12px;}
+            .tile .n{font-size:18px;}
+            .card-top{flex-direction:column; align-items:flex-start; gap:6px;}
+            .chips{gap:6px;}
+        }
+
+        header h1{font-size:19px; font-weight:600; margin:0 0 4px;}
+        header p{margin:0 0 20px; color:var(--muted); font-size:12.5px;}
+
+        .bento{
+            display:grid;
+            grid-template-columns: 1.2fr 1fr 1fr 1fr;
+            gap:10px;
+            margin-bottom:18px;
+        }
+        .tile{
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:10px;
+            padding:12px 14px;
+        }
+        .tile.fail{border-color:rgba(240,85,90,0.35);}
+        .tile .n{font-family:Consolas, monospace; font-size:21px; font-weight:600; display:block;}
+        .tile.fail .n{color:var(--assertion);}
+        .tile.pass .n{color:var(--ok);}
+        .tile .l{color:var(--muted); font-size:11.5px;}
+
+        .chips{
+            display:flex;
+            gap:8px;
+            flex-wrap:wrap;
+            margin-bottom:22px;
+        }
+        .chip{
+            font-size:12px;
+            padding:5px 12px;
+            border-radius:20px;
+            border:1px solid var(--border);
+            color:var(--muted);
+            background:var(--surface);
+            cursor:pointer;
+            font-family:Consolas, monospace;
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            user-select:none;
+        }
+        .chip .dot{width:6px; height:6px; border-radius:50%;}
+        .dot-all{background:var(--text);}
+        .dot-assertion{background:var(--assertion);}
+        .dot-timeout{background:var(--timeout);}
+        .dot-browser{background:var(--browser);}
+        .dot-other{background:var(--other);}
+        .chip.active{color:var(--text); border-color:var(--text);}
+
+        .failure-card{
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-left:3px solid var(--assertion);
+            border-radius:8px;
+            padding:14px 16px;
+            margin-bottom:14px;
+        }
+        .failure-card.type-timeout{border-left-color:var(--timeout);}
+        .failure-card.type-browser{border-left-color:var(--browser);}
+        .failure-card.type-other{border-left-color:var(--other);}
+        .failure-card.hidden{display:none;}
+
+        .card-top{display:flex; align-items:center; justify-content:space-between; gap:10px;}
+        .test-name{font-weight:600; font-size:14px;}
+        .type-badge{
+            font-size:10.5px;
+            font-family:Consolas, monospace;
+            padding:2px 8px;
+            border-radius:5px;
+            white-space:nowrap;
+            color:var(--assertion);
+            background:var(--assertion-dim);
+            display:inline-flex;
+            align-items:center;
+            gap:4px;
+        }
+        .badge-icon{width:11px; height:11px; flex-shrink:0;}
+        .type-timeout .type-badge{color:var(--timeout); background:var(--timeout-dim);}
+        .type-browser .type-badge{color:var(--browser); background:var(--browser-dim);}
+        .type-other .type-badge{color:var(--other); background:var(--other-dim);}
+
+        .path{
+            margin:9px 0;
+            color:var(--muted);
+            font-size:12.5px;
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            row-gap:8px;
+            column-gap:6px;
+        }
+        .path span{
+            color:var(--text);
+            background:var(--surface-2);
+            padding:3px 7px;
+            border-radius:5px;
+            border:1px solid var(--border);
+            word-break:break-all;
+            line-height:1.5;
+        }
+
+        .msg-block{
+            margin:10px 0 12px;
+            padding:10px 12px;
+            background:var(--surface-2);
+            border-radius:6px;
+            border:1px solid var(--border);
+        }
+        .msg-line{
+            font-family:Consolas, monospace;
+            font-size:12.5px;
+            color:#d9a3a5;
+            white-space:pre-wrap;
+            word-break:break-all;
+        }
+        .msg-line:not(:last-child){margin-bottom:4px;}
+
+        a.jump-btn{
+            display:inline-block;
+            font-size:12.5px;
+            color:var(--text);
+            background:transparent;
+            border:1px solid var(--border);
+            padding:6px 12px;
+            border-radius:7px;
+            text-decoration:none;
+            cursor:pointer;
+        }
+        a.jump-btn:hover{border-color:var(--text);}
     </style>
 </head>
 <body>
-    <h2>⚠ Failure Summary — Click to Jump to Root Cause</h2>
-    
-    {{CARDS}}
+<div class="wrap">
+    <header>
+        <h1>⚠ Failure summary</h1>
+        <p>{{TOTAL}} tests · {{FAILED}} failed · {{PASSED}} passed · {{SKIPPED}} skipped · {{DURATION}}</p>
+    </header>
+
+    <div class="bento">
+        <div class="tile fail"><span class="n">{{FAILED}}</span><span class="l">Failed</span></div>
+        <div class="tile pass"><span class="n">{{PASSED}}</span><span class="l">Passed</span></div>
+        <div class="tile"><span class="n">{{SKIPPED}}</span><span class="l">Skipped</span></div>
+        <div class="tile"><span class="n">{{DURATION}}</span><span class="l">Duration</span></div>
+    </div>
+
+    <div class="chips" id="chips">
+        {{CHIPS}}
+    </div>
+
+    <div id="cards">
+        {{CARDS}}
+    </div>
+</div>
 
     <script>
         {{JAVASCRIPT}}

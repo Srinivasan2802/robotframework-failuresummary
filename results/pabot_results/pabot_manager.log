@@ -1,0 +1,52 @@
+[INFO]    Initialized logging in results\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   2026-09-04 11:44:09.352109 [PID:25440] [0] [ID:0] EXECUTING Tests.Checkout
+[DEBUG]   2026-09-04 11:44:09.353109 [PID:33320] [1] [ID:1] EXECUTING Tests.Login
+[INFO]    2026-09-04 11:44:09.824311 [PID:33320] [1] [ID:1] Execution failed in Tests.Login with 1 failing test(s)
+==============================================================================
+Tests
+==============================================================================
+Tests.Login :: Login-related test cases (File A)
+==============================================================================
+Login With Valid Credentials :: This test passes.                     | PASS |
+------------------------------------------------------------------------------
+Login With Invalid Credentials Should Fail :: This test fails on p... | FAIL |
+Reason: Invalid login credentials were not handled correctly.
+------------------------------------------------------------------------------
+Tests.Login :: Login-related test cases (File A)                      | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Users\srini\robotframework-failuresummary\results\pabot_results\1\output.xml
+[INFO]    2026-09-04 11:44:09.838312 [PID:25440] [0] [ID:0] Execution failed in Tests.Checkout with 1 failing test(s)
+==============================================================================
+Tests
+==============================================================================
+Tests.Checkout :: Checkout-related test cases (File B)
+==============================================================================
+Checkout With Valid Cart :: This test passes.                         | PASS |
+------------------------------------------------------------------------------
+Checkout With Empty Cart Should Fail :: This test fails on purpose... | FAIL |
+Reason: Empty cart was not handled correctly during checkout.
+------------------------------------------------------------------------------
+Tests.Checkout :: Checkout-related test cases (File B)                | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Users\srini\robotframework-failuresummary\results\pabot_results\0\output.xml
+[INFO]    4 tests, 2 passed, 2 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\srini\robotframework-failuresummary\results\output.xml
+[INFO]    Log:     C:\Users\srini\robotframework-failuresummary\results\log.html
+[INFO]    Report:  C:\Users\srini\robotframework-failuresummary\results\report.html
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 1.0 seconds
+[INFO]    Elapsed time:  2.0 seconds
+[DEBUG]   Logs flushed successfully.
