@@ -78,10 +78,10 @@ This is off by default — leave it unset for normal use, since it writes a log 
 
 ## Changelog
 
-**2.0.0** — Added `rf-failure-summary` CLI with pabot support, fixed line-number resolution across multi-file suites, responsive UI, debug logging off by default.
+**2.0.0** — Added `rf-failure-summary` base 1.0.0 features + CLI with pabot support, included line-number resolution across multi-file suites, responsive UI with failure seperation based on label.
 
 **1.0.0** — Initial release.
-
+ deep linking failure nodes navigation in a single click which keeps that particular failure node  open and rest all closed for easier and optimized `log.html` navigation for best usage u need to keep both the base html report tab and failure_summary.html tab in single window as clicking to failure nodes first time opens new tab second time it reuses the already opened tab thats why single window spliting tabs will give you the best output.   
 ## License
 
 MIT
